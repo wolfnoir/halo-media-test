@@ -9,7 +9,9 @@ class Releases extends React.Component {
                     <div className="title inverted">
                         RELEASES
                     </div>
-                    <button className="button yellow">View All Releases</button>
+                    <div className="button-right">
+                        <button className="button yellow">View All Releases</button>
+                    </div>
                 </div>
             </div>
         );

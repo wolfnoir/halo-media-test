@@ -11,9 +11,17 @@
     background: #FFC803;
 }
 
+.button-right {
+    text-align: right;
+}
+
 @media (max-width: 1024px) {
     .content-container {
         padding: 40px 0px;
+        text-align: center;
+    }
+
+    .button-right {
         text-align: center;
     }
 }

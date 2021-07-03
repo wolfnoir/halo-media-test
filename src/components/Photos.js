@@ -9,7 +9,9 @@ class Photos extends React.Component {
                     <div className="title inverted">
                         Photos
                     </div>
-                    <button className="releases-button button yellow">View All Photos</button>
+                    <div className="button-right">
+                        <button className="releases-button button yellow">View All Photos</button>
+                    </div>
                 </div>
             </div>
         );

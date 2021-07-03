@@ -9,7 +9,9 @@ class Tour extends React.Component {
                     <div className="title inverted">
                         Tour
                     </div>
-                    <button className="releases-button button yellow">View All Dates</button>
+                    <div className="button-right">
+                        <button className="releases-button button yellow">View All Dates</button>
+                    </div>
                 </div>
             </div>
         );

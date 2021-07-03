@@ -9,7 +9,9 @@ class Videos extends React.Component {
                     <div className="title inverted">
                         Videos
                     </div>
-                    <button className="button yellow">View All Videos</button>
+                    <div className="button-right">
+                        <button className="button yellow">View All Videos</button>
+                    </div>
                 </div>
             </div>
         );

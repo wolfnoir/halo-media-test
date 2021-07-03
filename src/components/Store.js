@@ -9,7 +9,9 @@ class Store extends React.Component {
                     <div className="title inverted black">
                         Store
                     </div>
-                    <button className="releases-button button black">Shop All</button>
+                    <div className="button-right">
+                        <button className="releases-button button black">Shop All</button>
+                    </div>
                 </div>
             </div>
         );
