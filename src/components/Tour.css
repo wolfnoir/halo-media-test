@@ -1,0 +1,73 @@
+.tour-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tour-column {
+    flex: 40%;
+    margin: 0px 25px;
+}
+
+.tour-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #FFC803;
+    border-bottom: 1px solid #FFC803;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.tour-details {
+    flex: 50%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.tour-details .date {
+    font-family: 'Sedgwick Ave';
+}
+
+.tour-details .venue {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.tour-links {
+    flex: 50%;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: right;
+    padding: 10px;
+}
+
+.tour-links a {
+    margin: 30px;
+    color: #FFC803;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.tour-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .tour-flexbox {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .tour-item {
+        flex-direction: column;
+      }
+
+    .tour-links a {
+        text-decoration: underline;
+    }
+  }
