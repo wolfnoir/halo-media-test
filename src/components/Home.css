@@ -23,11 +23,11 @@
     margin-bottom: 45px;
 }
 
-.home-socials ul {
+.home-socials > ul {
     list-style-type: none;
 }
 
-.home-socials li {
+.home-socials > ul > li {
     margin: 25px 0px;
 }
 

@@ -12,13 +12,13 @@
     align-items: center;
 }
 
-.footer-container a {
+.footer-container > a {
     color: #FFC803;
     text-decoration: none;
     transition: all 0.3s;
 }
 
-.footer-container a:hover {
+.footer-container > a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -29,7 +29,7 @@
       margin: 1em 0em;
     }
 
-    .footer-container a {
+    .footer-container > a {
         text-decoration: underline;
     }
   }

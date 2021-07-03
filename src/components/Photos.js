@@ -12,34 +12,29 @@ import photo8 from "../images/Bitmap8.png";
 import photo9 from "../images/Bitmap9.png";
 import photo10 from "../images/Bitmap10.png";
 
+const photos = ["../images/Bitmap1.png", "../images/Bitmap2.png", "../images/Bitmap3.png", "../images/Bitmap4.png",
+                "../images/Bitmap5.png", "../images/Bitmap6.png", "../images/Bitmap7.png", "../images/Bitmap8.png",
+                "../images/Bitmap9.png", "../images/Bitmap10.png"]
+
 class Photos extends React.Component {
-    render(){
-        return(
+    render() {
+        return (
             <div className="content-container">
                 <div className="title inverted">
                     Photos
                 </div>
                 <div className="photo-flexbox">
-                    <div className="photo-column">
-                        <div className="photo" style={{backgroundImage: `url(${photo1})`}}/>
-                        <div className="photo" style={{backgroundImage: `url(${photo6})`}}/>
-                    </div>
-                    <div className="photo-column">
-                        <div className="photo" style={{backgroundImage: `url(${photo2})`}}/>
-                        <div className="photo" style={{backgroundImage: `url(${photo7})`}}/>
-                    </div>
-                    <div className="photo-column">
-                        <div className="photo" style={{backgroundImage: `url(${photo3})`}}/>
-                        <div className="photo" style={{backgroundImage: `url(${photo8})`}}/>
-                    </div>
-                    <div className="photo-column">
-                        <div className="photo" style={{backgroundImage: `url(${photo4})`}}/>
-                        <div className="photo" style={{backgroundImage: `url(${photo9})`}}/>
-                    </div>
-                    <div className="photo-column">
-                        <div className="photo" style={{backgroundImage: `url(${photo5})`}}/>
-                        <div className="photo" style={{backgroundImage: `url(${photo10})`}}/>
-                    </div>
+                    {/* @ TODO: REPLACE WITH MAP FUNCTION */}
+                    <div style={{ backgroundImage: `url(${photo1})` }}></div>
+                    <div style={{ backgroundImage: `url(${photo2})` }} />
+                    <div style={{ backgroundImage: `url(${photo3})` }} />
+                    <div style={{ backgroundImage: `url(${photo4})` }} />
+                    <div style={{ backgroundImage: `url(${photo5})` }} />
+                    <div style={{ backgroundImage: `url(${photo6})` }} />
+                    <div style={{ backgroundImage: `url(${photo7})` }} />
+                    <div style={{ backgroundImage: `url(${photo8})` }} />
+                    <div style={{ backgroundImage: `url(${photo9})` }} />
+                    <div style={{ backgroundImage: `url(${photo10})` }} />
                 </div>
                 <div className="button-div right">
                     <a href="#" className="releases-button button yellow">View All Photos</a>
@@ -47,7 +42,7 @@ class Photos extends React.Component {
             </div>
         );
     }
-    
+
 }
 
 export default Photos

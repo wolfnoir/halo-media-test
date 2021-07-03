@@ -57,12 +57,12 @@
     animation: wiggle 0.3s infinite;
 }
 
-.store-item .name { 
+.store-item > .name { 
     font-weight: 800;
     font-size: 1.8em;
 }
 
-.store-item .price {
+.store-item > .price {
     font-family: 'Sedgwick Ave';
     font-size: 1.3em;
 }

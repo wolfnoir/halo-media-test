@@ -27,11 +27,11 @@
     font-size: 1.5em;
 }
 
-.tour-details .date {
+.tour-details > .date {
     font-family: 'Sedgwick Ave';
 }
 
-.tour-details .venue {
+.tour-details > .venue {
     font-weight: 800;
     font-size: 1.2em;
 }
@@ -44,14 +44,14 @@
     padding: 10px;
 }
 
-.tour-links a {
+.tour-links > a {
     margin: 1em;
     color: #FFC803;
     transition: all 0.3s;
     text-decoration: none;
 }
 
-.tour-links a:hover {
+.tour-links > a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -67,7 +67,7 @@
         flex-direction: column;
       }
 
-    .tour-links a {
+    .tour-links > a {
         text-decoration: underline;
     }
   }
