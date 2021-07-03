@@ -4,7 +4,7 @@ import './Home.css';
 class Home extends React.Component {
     render(){
         return(
-            <div className="wrapper">
+
                 <div className="home-container">
                     <div className="home-text">
                         <div className="home-text subtitle">Check out on Splice</div>
@@ -17,7 +17,6 @@ class Home extends React.Component {
                         SOCIAL MEDIA PLACEHOLDER
                     </div>
                 </div>
-            </div>
         );
     }
     

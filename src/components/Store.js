@@ -8,7 +8,6 @@ import store3 from "../images/BananaSplitDigitalSingle.png";
 class Store extends React.Component {
     render(){
         return(
-            <div className="wrapper">
                 <div className="content-container yellow">
                     <div className="title inverted black">
                         Store
@@ -34,7 +33,6 @@ class Store extends React.Component {
                         <a href="#" className="releases-button button black">Shop All</a>
                     </div>
                 </div>
-            </div>
         );
     }
     

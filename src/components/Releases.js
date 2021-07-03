@@ -4,7 +4,6 @@ import './Content.css';
 class Releases extends React.Component {
     render(){
         return(
-            <div className="wrapper">
                 <div className="content-container gray">
                     <div className="title inverted">
                         RELEASES
@@ -13,7 +12,6 @@ class Releases extends React.Component {
                         <a href="#" className="button yellow">View All Releases</a>
                     </div>
                 </div>
-            </div>
         );
     }
     

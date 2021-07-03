@@ -5,7 +5,6 @@ import './Tour.css';
 class Tour extends React.Component {
     render(){
         return(
-            <div className="wrapper">
                 <div className="content-container">
                     <div className="title inverted">
                         Tour
@@ -92,7 +91,6 @@ class Tour extends React.Component {
                         <a href="#" className="releases-button button yellow">View All Dates</a>
                     </div>
                 </div>
-            </div>
         );
     }
     
