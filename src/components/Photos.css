@@ -1,0 +1,26 @@
+.photo-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-column {
+    flex: 10%;
+    max-width: 250px;
+    margin: 5px;
+}
+
+.photo {
+    height: 250px;
+    max-width: 250px;
+    transition: all 0.5s;
+    margin: auto;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
