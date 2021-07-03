@@ -1,6 +1,6 @@
 .home-container {
     display: flex;
-    padding: 2em 4em;
+    padding: 2em 6em;
     margin-top: 100px;
     justify-content: space-between;
     align-items: flex-end;
@@ -15,13 +15,13 @@
     margin: 10px;
     margin-top: auto;
     text-align: left;
-    max-width: 500px;
-    line-height: normal;
+    max-width: 600px;
+    line-height: 90%;
 }
 
 @media (max-width: 1024px) {
     .home-container {
-        padding: 0;
+        padding: 10px;
         flex-direction: column;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                        rgba(0, 0, 0, 0.5)), url("../images/HomeImage.png");
@@ -32,6 +32,9 @@
     .home-text {
         color: white;
         text-align: center;
+        font-size: 3vm;
+        margin: 10px;
+        max-width: 500px;
     }
 
     .home-socials {
