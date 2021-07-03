@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavBar.css';
-import murdaBeatsIcon from "../Images/MBlogowhite_x300.svg";
+import murdaBeatsIcon from "../images/MBlogowhite_x300.svg";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -8,8 +8,8 @@ class NavBar extends React.Component {
 
     render(){
         return(
-            <div className="navbar-wrapper">
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="light" bsClass="navbar"> {/* fixed="top" */}
+            <div className="navigation-wrapper">
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="light" fixed="top" bsClass="navbar" id="navbar"> {/* fixed="top" */}
                     <Container bsClass="container">
                         <Navbar.Brand href="#"><img src={murdaBeatsIcon} alt="MURDA BEATZ Logo" className="navbar-logo" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

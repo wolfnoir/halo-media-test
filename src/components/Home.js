@@ -9,7 +9,9 @@ class Home extends React.Component {
                     <div className="home-text">
                         <div className="home-text subtitle">Check out on Splice</div>
                         <div className="home-text title">Murda Beatz’ Quarantine Kit Sample Pack</div>
-                        <button className="button black" style={{marginLeft: "10px"}}>Listen Now</button>
+                        <div className="button-div">
+                            <a href="#" className="button black" style={{marginLeft: "10px"}}>Listen Now</a>
+                        </div>
                     </div>
                     <div className="home-socials">
                         SOCIAL MEDIA PLACEHOLDER

@@ -1,10 +1,11 @@
 .home-container {
     display: flex;
     padding: 2em 4em;
+    margin-top: 100px;
     justify-content: space-between;
     align-items: flex-end;
     background-color: var(--primary);
-    background-image: url("../Images/HomeImage.png");
+    background-image: url("../images/HomeImage.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
@@ -23,7 +24,7 @@
         padding: 0;
         flex-direction: column;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url("../Images/HomeImage.png");
+                       rgba(0, 0, 0, 0.5)), url("../images/HomeImage.png");
         justify-content: center;
         align-items: center;
     }

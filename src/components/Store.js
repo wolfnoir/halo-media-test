@@ -1,9 +1,9 @@
 import React from 'react';
 import './Content.css';
 import './Store.css';
-import store1 from "../Images/BananaSplitLong.png";
-import store2 from "../Images/BananaSplitShort.png";
-import store3 from "../Images/BananaSplitDigitalSingle.png";
+import store1 from "../images/BananaSplitLong.png";
+import store2 from "../images/BananaSplitShort.png";
+import store3 from "../images/BananaSplitDigitalSingle.png";
 
 class Store extends React.Component {
     render(){
@@ -30,8 +30,8 @@ class Store extends React.Component {
                             <span className="price">$1.29</span>
                         </div>
                     </div>
-                    <div className="button-right">
-                        <button className="releases-button button black">Shop All</button>
+                    <div className="button-div right">
+                        <a href="#" className="releases-button button black">Shop All</a>
                     </div>
                 </div>
             </div>

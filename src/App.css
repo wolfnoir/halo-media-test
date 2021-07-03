@@ -40,9 +40,12 @@ body {
   width: 100%;
 }
 
+.button-div {
+  padding: 10px 0px;
+}
+
 .button {
-  padding: 10px 30px;
-  margin: 10px 0px;
+  padding: 10px 50px;
   min-width: 200px;
   border: none;
   border-radius: 25px;

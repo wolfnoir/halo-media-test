@@ -88,8 +88,8 @@ class Tour extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="button-right">
-                        <button className="releases-button button yellow">View All Dates</button>
+                    <div className="button-div right">
+                        <a href="#" className="releases-button button yellow">View All Dates</a>
                     </div>
                 </div>
             </div>

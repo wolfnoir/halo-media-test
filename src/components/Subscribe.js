@@ -9,7 +9,9 @@ class Subscribe extends React.Component {
                     <div className="title inverted">
                         Subscribe
                     </div>
-                    <button className="button yellow">Submit</button>
+                    <div className="button-div">
+                        <button className="button yellow">Submit</button>
+                    </div>
                 </div>
             </div>
         );
