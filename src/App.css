@@ -33,7 +33,7 @@ body {
 .subtitle {
   font-family: 'Sedgwick Ave';
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .wrapper {
@@ -43,6 +43,7 @@ body {
 .button {
   padding: 10px 30px;
   margin: 10px 0px;
+  min-width: 200px;
   border: none;
   border-radius: 25px;
   font-family: 'Sen';

@@ -1,0 +1,56 @@
+.store-flexbox {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.store-item {
+    flex: 25%;
+    max-width: 400px;
+    margin: 5px;
+    padding: 10px 0px;
+}
+
+.store-image {
+    height: 400px;
+    max-width: 400px;
+    transition: all 0.5s;
+    margin: auto;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+.store-image:hover {
+    transform: scale(1.1);
+}
+
+.store-item .name { 
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.store-item .price {
+    font-family: 'Sedgwick Ave';
+    font-size: 1.3em;
+}
+
+@media (max-width: 1024px) {
+    .store-item {
+      flex: 40%;
+      max-width: 40%;
+    }
+
+  }
+
+  @media (max-width: 800px) {
+    .store-item {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

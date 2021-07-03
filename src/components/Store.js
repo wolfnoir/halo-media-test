@@ -1,5 +1,9 @@
 import React from 'react';
 import './Content.css';
+import './Store.css';
+import store1 from "../Images/BananaSplitLong.png";
+import store2 from "../Images/BananaSplitShort.png";
+import store3 from "../Images/BananaSplitDigitalSingle.png";
 
 class Store extends React.Component {
     render(){
@@ -8,6 +12,23 @@ class Store extends React.Component {
                 <div className="content-container yellow">
                     <div className="title inverted black">
                         Store
+                    </div>
+                    <div className="store-flexbox">
+                        <div className="store-item">
+                            <div className="store-image" style={{backgroundImage: `url(${store1})`}}/>
+                            <span className="name">Banana Split Long Sleeve</span><br/>
+                            <span className="price">$30.00</span>
+                        </div>
+                        <div className="store-item">
+                            <div className="store-image" style={{backgroundImage: `url(${store2})`}}/>
+                            <span className="name">Banana Split Short Sleeve</span><br/>
+                            <span className="price">$25.00</span>
+                        </div>
+                        <div className="store-item">
+                            <div className="store-image" style={{backgroundImage: `url(${store3})`}}/>
+                            <span className="name">Banana Split - Digital Single</span><br/>
+                            <span className="price">$1.29</span>
+                        </div>
                     </div>
                     <div className="button-right">
                         <button className="releases-button button black">Shop All</button>
