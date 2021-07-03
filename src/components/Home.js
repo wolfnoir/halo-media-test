@@ -13,7 +13,14 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="home-socials">
-                    SOCIAL MEDIA PLACEHOLDER
+                    <ul>
+                        <li><a href="#" class="fa fa-envelope fa-2x"></a></li>
+                        <li><a href="#" class="fa fa-spotify fa-2x"></a></li>
+                        <li><a href="#" class="fa fa-music fa-2x"></a></li>
+                        <li><a href="#" class="fa fa-instagram fa-2x"></a></li>
+                        <li><a href="#" class="fa fa-twitter fa-2x"></a></li>
+                        <li><a href="#" class="fa fa-facebook fa-2x"></a></li>
+                    </ul>
                 </div>
             </div>
         );
