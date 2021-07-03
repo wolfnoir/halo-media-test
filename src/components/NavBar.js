@@ -10,7 +10,7 @@ class NavBar extends React.Component {
         return(
             <div className="navbar-wrapper">
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="light" bsClass="navbar"> {/* fixed="top" */}
-                    <Container>
+                    <Container bsClass="container">
                         <Navbar.Brand href="#"><img src={murdaBeatsIcon} alt="MURDA BEATZ Logo" className="navbar-logo" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">

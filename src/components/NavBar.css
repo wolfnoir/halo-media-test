@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.container {
+    max-width: 1920px;
+}
+
 .navbar {
     background: #FFC803 !important;
 }
