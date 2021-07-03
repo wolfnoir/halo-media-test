@@ -45,7 +45,7 @@
 }
 
 .tour-links a {
-    margin: 30px;
+    margin: 1em;
     color: #FFC803;
     transition: all 0.3s;
     text-decoration: none;

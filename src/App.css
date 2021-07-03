@@ -77,6 +77,6 @@ body {
 
 @media (max-width: 1024px) {
   .title, .title.inverted {
-    font-size: 2em;
+    font-size: 4vmax;
   }
 }
