@@ -1,0 +1,32 @@
+.footer-container {
+    background: black;
+    color: #FFC803;
+    text-align: center;
+    font-weight: 800;
+    padding: 0.5em 0em;
+    margin: 0em 6em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container a {
+    color: #FFC803;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .footer-container {
+      flex-direction: column;
+      margin: 1em 0em;
+      text-decoration: underline;
+    }
+  }

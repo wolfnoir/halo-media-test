@@ -1,0 +1,41 @@
+.navbar-wrapper {
+    width: 100%;
+}
+
+.navbar {
+    background: #FFC803 !important;
+}
+
+.navbar-logo {
+    filter: invert(100%);
+    max-width: 169px;
+    height: auto;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+    filter: invert(0%) drop-shadow(2px 2px 0px black);
+}
+
+.nav-link {  
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black !important;
+    transition: all 0.3s !important;
+    padding: 0px 25px !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-decoration: underline !important;
+  }
+
+  @media (max-width: 1024px) {
+    .navbar-logo {
+        max-width: 100px;
+    }
+  }
