@@ -34,10 +34,6 @@
     z-index: -1;
 }
 
-.hide {
-    opacity: 0;
-}
-
 .subscribe-input::placeholder {
     color: #ffc803c9;
 }

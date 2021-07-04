@@ -64,7 +64,7 @@ class Subscribe extends React.Component {
         return (
             <div className="content-container gray">
                 <div className="subtitle thank-you hide" id="subscribe-thank-you">
-                    Thank you for subscribing!
+                    Thank you for submitting!
                 </div>
                 <Form onSubmit={this.handleSubmit} className='subscribe-form' id="subscribe-form">
                     <div className="title inverted">

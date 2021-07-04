@@ -36,6 +36,10 @@ body {
   font-size: 1.5em;
 }
 
+.hide {
+  opacity: 0;
+}
+
 .button-div {
   padding: 10px 0px;
 }
