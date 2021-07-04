@@ -18,13 +18,19 @@ const photos = ["../images/Bitmap1.png", "../images/Bitmap2.png", "../images/Bit
 
 class Photos extends React.Component {
     render() {
+        // var images = photos.map((photo, key) => {
+        //     return (
+        //         <img key = {key} src={photo} />
+        //     )
+        // });
+
         return (
             <div className="content-container">
                 <div className="title inverted">
                     Photos
                 </div>
                 <div className="photo-flexbox">
-                    {/* @ TODO: REPLACE WITH MAP FUNCTION */}
+                    {/* {images} */}
                     <div style={{ backgroundImage: `url(${photo1})` }}></div>
                     <div style={{ backgroundImage: `url(${photo2})` }} />
                     <div style={{ backgroundImage: `url(${photo3})` }} />

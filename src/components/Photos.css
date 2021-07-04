@@ -9,7 +9,6 @@
 .photo-flexbox > div {
     height: 250px;
     width: 250px;
-    background: white;
     transition: all 0.5s;
     margin: 3px;
     background-size: cover;
