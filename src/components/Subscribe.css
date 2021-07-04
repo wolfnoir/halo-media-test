@@ -5,6 +5,7 @@
     max-width: 900px;
     padding: 10px;
     margin: auto;
+    transition: all 2;
 }
 
 .subscribe-info {
@@ -14,12 +15,34 @@
     align-items: center;
 }
 
+.subscribe-feedback {
+    color: rgb(255, 106, 106);
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 5px;
+}
+
+.thank-you {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    padding-top: 100px;
+    color: white;
+    font-size: 4em;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.hide {
+    opacity: 0;
+}
+
 .subscribe-input::placeholder {
     color: #ffc803c9;
 }
 
 .subscribe-input, .subscribe-input:focus {
-    flex: 50%;
     max-width: 47%;
     color: #FFC803;
     text-transform: uppercase;
@@ -87,9 +110,15 @@
 }
 
 @media (max-width: 1024px) {
-    .subscribe-input {
+    .subscribe-input, .subscribe-input:focus {
       flex-direction: column;
       max-width: 100%;
       margin: 20px 10px;
+    }
+
+    .thank-you {
+        font-size: 3em;
+        right: 0%;
+        left: 0%;
     }
   }
