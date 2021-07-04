@@ -27,7 +27,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));
+    transition: all 0.5s;
 }
 
 .album.small {
@@ -35,3 +36,20 @@
     height: 250px;
     margin: 10px;
 }
+
+.album:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .album {
+        width: 300px;
+        height: 300px;
+    }
+
+    .album.small {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+  }

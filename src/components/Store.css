@@ -73,6 +73,11 @@
       max-width: 40%;
     }
 
+    .store-image {
+      height: 300px;
+      max-width: 300px;
+  }
+
   }
 
   @media (max-width: 800px) {
