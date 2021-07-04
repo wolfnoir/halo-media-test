@@ -20,14 +20,18 @@
 
 .subscribe-input, .subscribe-input:focus {
     flex: 50%;
-    max-width: 45%;
+    max-width: 47%;
     color: #FFC803;
     text-transform: uppercase;
-    margin: 30px 10px;
+    margin: 20px 10px;
     border: none;
     border-radius: 0px;
     border-bottom: 2px solid #FFC803;
     background: none;
+}
+
+.subscribe-checkbox {
+    margin: 5px 0px;
 }
 
 .subscribe-checkbox > input {

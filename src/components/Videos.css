@@ -1,0 +1,56 @@
+.video-carousel {
+    margin: auto;
+}
+
+.video-carousel iframe {
+    width: 720px;
+    height: 405px;
+}
+
+.video-details {
+    margin: 10px 0px;
+    text-align: left;
+    color: white;
+}
+
+.video-details > .title {
+    font-size: 2.2em;
+}
+
+.video-details > .subtitle {
+    font-size: 1.2em;
+}
+
+.video-buttons {
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.video-buttons > button {
+    margin: 10px 20px;
+    background: none;
+    border: none;
+    color: #FFC803;
+    font-weight: 800;
+    font-size: 2em;
+    transition: all 0.3s;
+}
+
+.video-buttons > button:hover {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .video-buttons {
+        display: block;
+    }
+
+    .video-carousel iframe {
+        max-width: 100%;
+    }
+
+    .video-details {
+        text-align: center;
+    }
+  }
