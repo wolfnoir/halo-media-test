@@ -23,7 +23,7 @@ const items = [
         </div>
     </div>,
     <div style={{maxWidth: "80%"}}>
-        <iframe src="https://www.youtube.com/embed/KBXsx1ZHgg0" title="YouTube video player" frameborder="0" onDragStart={handleDragStart} 
+        <iframe src="https://www.youtube.com/embed/zdNFWS0xd-s" title="YouTube video player" frameborder="0" onDragStart={handleDragStart} 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
         <div className="video-details">
             <div className="title">Banana Split</div>
@@ -34,8 +34,8 @@ const items = [
         <iframe src="https://www.youtube.com/embed/n5O3rLeszVY" title="YouTube video player" frameborder="0" onDragStart={handleDragStart} 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
         <div className="video-details">
-            <div className="title">Banana Split</div>
-            <div className="subtitle">MURDA BEATZ (FEAT. YNW MELLY &amp; LIL DURK)</div>
+            <div className="title">Peasant's Quest</div>
+            <div className="subtitle">The Chapman Brothers</div>
         </div>
     </div>,
 ];

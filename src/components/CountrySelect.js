@@ -20,7 +20,8 @@ class CountrySelect extends React.Component {
 
     render() {
         return (
-            <Form.Control placeholder="Country" as="select" defaultValue={this.props.defaultValue} onChange={this.handleCountryChange} size='lg' className={this.props.className}>
+            <Form.Control placeholder="Country" as="select" defaultValue={this.props.defaultValue} style={{backgroundColor: "rgb(51, 51, 51)"}}
+                onChange={this.handleCountryChange} size='lg' className={this.props.className}>
                 <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
                 <option value="AF" label="Afghanistan">Afghanistan</option>
                 <option value="AL" label="Albania">Albania</option>
