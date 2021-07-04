@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .tour-column {
@@ -18,7 +18,13 @@
     border-top: 1px solid #FFC803;
     border-bottom: 1px solid #FFC803;
     text-transform: uppercase;
-    padding: 10px 0px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.tour-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
 }
 
 .tour-details {

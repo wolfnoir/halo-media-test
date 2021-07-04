@@ -1,0 +1,62 @@
+.subscribe-form {
+    color: white;
+    font-family: 'Sen';
+    text-transform: uppercase;
+    max-width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+.subscribe-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-input::placeholder {
+    color: #ffc803c9;
+}
+
+.subscribe-input, .subscribe-input:focus {
+    flex: 50%;
+    max-width: 45%;
+    color: #FFC803;
+    text-transform: uppercase;
+    margin: 30px 10px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #FFC803;
+    background: none;
+}
+
+.subscribe-checkbox {
+    color: #FADF46;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.subscribe-disclaimer {
+    color: white;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.subscribe-disclaimer a {
+    color: #FADF46;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.subscribe-disclaimer a:hover {
+    color: #616161;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .subscribe-input {
+      flex-direction: column;
+      max-width: 100%;
+      margin: 20px 10px;
+    }
+  }

@@ -23,7 +23,7 @@ body {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   font-size: 4vmax;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
 }
 
 .title.inverted.black {
@@ -41,6 +41,7 @@ body {
 }
 
 .button {
+  font-size: 1.3em;
   padding: 10px 50px;
   min-width: 200px;
   border: none;
@@ -77,6 +78,6 @@ body {
 
 @media (max-width: 1024px) {
   .title, .title.inverted {
-    font-size: 4vmax;
+    font-size: 6vmax;
   }
 }
