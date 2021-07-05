@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/halo-media-test/static/css/main.473b3f09.chunk.css",
-    "main.js": "/halo-media-test/static/js/main.df414597.chunk.js",
-    "main.js.map": "/halo-media-test/static/js/main.df414597.chunk.js.map",
+    "main.css": "/halo-media-test/static/css/main.1be231a5.chunk.css",
+    "main.js": "/halo-media-test/static/js/main.155c0d78.chunk.js",
+    "main.js.map": "/halo-media-test/static/js/main.155c0d78.chunk.js.map",
     "runtime-main.js": "/halo-media-test/static/js/runtime-main.499d1237.js",
     "runtime-main.js.map": "/halo-media-test/static/js/runtime-main.499d1237.js.map",
     "static/css/2.47e28f1b.chunk.css": "/halo-media-test/static/css/2.47e28f1b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.bb227f2b.chunk.js.map": "/halo-media-test/static/js/3.bb227f2b.chunk.js.map",
     "index.html": "/halo-media-test/index.html",
     "static/css/2.47e28f1b.chunk.css.map": "/halo-media-test/static/css/2.47e28f1b.chunk.css.map",
-    "static/css/main.473b3f09.chunk.css.map": "/halo-media-test/static/css/main.473b3f09.chunk.css.map",
+    "static/css/main.1be231a5.chunk.css.map": "/halo-media-test/static/css/main.1be231a5.chunk.css.map",
     "static/js/2.80bbe030.chunk.js.LICENSE.txt": "/halo-media-test/static/js/2.80bbe030.chunk.js.LICENSE.txt",
     "static/media/02 Whirling-In-Rags, 8 AM.7936b181.mp3": "/halo-media-test/static/media/02 Whirling-In-Rags, 8 AM.7936b181.mp3",
     "static/media/Album1.e06801c8.png": "/halo-media-test/static/media/Album1.e06801c8.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.499d1237.js",
     "static/css/2.47e28f1b.chunk.css",
     "static/js/2.80bbe030.chunk.js",
-    "static/css/main.473b3f09.chunk.css",
-    "static/js/main.df414597.chunk.js"
+    "static/css/main.1be231a5.chunk.css",
+    "static/js/main.155c0d78.chunk.js"
   ]
 }
