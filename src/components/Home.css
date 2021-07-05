@@ -7,7 +7,7 @@
     background-color: var(--primary);
     background-image: url("../images/HomeImage.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 60% 50%;
     min-height: 700px;
 }
 
@@ -15,7 +15,7 @@
     margin: 10px;
     margin-top: auto;
     text-align: left;
-    max-width: 600px;
+    max-width: 60%;
     line-height: 90%;
 }
 

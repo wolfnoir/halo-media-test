@@ -11,8 +11,6 @@ const responsive = {
     1024: { items: 2 },
 };
 
-const VIDEO_WIDTH = 800, VIDEO_HEIGHT = 450;
-
 const items = [
     <div style={{maxWidth: "80%"}}>
         <iframe src="https://www.youtube.com/embed/pNmXEL6g6xo" title="YouTube video player" frameborder="0" onDragStart={handleDragStart} 
