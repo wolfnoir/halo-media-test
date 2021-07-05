@@ -6,9 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## React Packages Used
 
-[react-alice-carousel](https://openbase.com/js/react-alice-carousel/documentation)
-
-[react-scrollable-anchor](https://www.npmjs.com/package/react-scrollable-anchor)
+- [react-alice-carousel](https://openbase.com/js/react-alice-carousel/documentation)
+- [react-scrollable-anchor](https://www.npmjs.com/package/react-scrollable-anchor)
 
 ## Implemented Features
 
