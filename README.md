@@ -12,6 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Implemented Features
 
+Including but not limited to:
 - Responsive design for tablet and mobile
 - Video carousel--video can be swapped out for non-video elements, as well
 - Subscribe form with validation
