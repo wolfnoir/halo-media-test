@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Halo Media Skill Assessment Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit the deployed website [here.](https://wolfnoir.github.io/halo-media-test/) (https://wolfnoir.github.io/halo-media-test/)
 
 ## Available Scripts
 
