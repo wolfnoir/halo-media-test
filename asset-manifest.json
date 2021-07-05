@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/halo-media-test/static/css/main.1be231a5.chunk.css",
-    "main.js": "/halo-media-test/static/js/main.155c0d78.chunk.js",
-    "main.js.map": "/halo-media-test/static/js/main.155c0d78.chunk.js.map",
+    "main.js": "/halo-media-test/static/js/main.cae0f342.chunk.js",
+    "main.js.map": "/halo-media-test/static/js/main.cae0f342.chunk.js.map",
     "runtime-main.js": "/halo-media-test/static/js/runtime-main.499d1237.js",
     "runtime-main.js.map": "/halo-media-test/static/js/runtime-main.499d1237.js.map",
     "static/css/2.47e28f1b.chunk.css": "/halo-media-test/static/css/2.47e28f1b.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.47e28f1b.chunk.css",
     "static/js/2.80bbe030.chunk.js",
     "static/css/main.1be231a5.chunk.css",
-    "static/js/main.155c0d78.chunk.js"
+    "static/js/main.cae0f342.chunk.js"
   ]
 }
