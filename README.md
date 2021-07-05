@@ -4,6 +4,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 (or copy and paste this into your prefered web browser: https://wolfnoir.github.io/halo-media-test/)
 
+## React Packages Used
+
+[react-alice-carousel](https://openbase.com/js/react-alice-carousel/documentation)
+
+[react-scrollable-anchor](https://www.npmjs.com/package/react-scrollable-anchor)
+
+## Implemented Features
+
+- Responsive design for tablet and mobile
+- Video carousel--video can be swapped out for non-video elements, as well
+- Subscribe form with validation
+- Smooth scrolling with navigation + anchor links
+- Test MP3 plays and pauses when clicking on the main image in "releases"
+
 ## Available Scripts
 
 In the project directory, you can run:
